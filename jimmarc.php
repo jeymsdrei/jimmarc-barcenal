@@ -10,6 +10,6 @@ foreach ($data as $person) {
              $person->first_name . " " .
              $person->last_name .
              " (" . $person->age . " years old)";
-        echo "<\n>";
+        echo "<\b>";
     }
 }
